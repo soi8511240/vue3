@@ -19,5 +19,9 @@ const c = ref({
 
 ### 해결책 
 ```javascript
-const c = computed(()=>props.name) // 반응성 유지
+const c = computed(()=>{
+  return {
+    name: props.name
+  }
+}) // 반응성 유지
 ```
