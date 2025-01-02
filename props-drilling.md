@@ -23,7 +23,7 @@ const handler = () => {
 ```javascript
 <template>
   <div>
-    <C v-bind="$attrs" />
+    **<C v-bind="$attrs" />**
   </div>
 </template>
 
@@ -32,7 +32,7 @@ import { useAttrs } from 'vue';
 import C from './C.vue';
 
 // $attrs에 접근하기 위해 useAttrs 훅 사용
-const attrs = useAttrs();
+**const attrs = useAttrs();**
 /*attrs {
   propA: '값A',
   propB: '값B',
@@ -41,10 +41,10 @@ const attrs = useAttrs();
 }*/
 
 // inheritAttrs: false 설정을 위해 defineOptions 매크로 사용
-// 참고: defineOptions는 Vue 3.3+ 버전에서 사용 가능합니다.
-defineOptions({
+// 참고: defineOptions는 **Vue 3.3+** 버전에서 사용 가능합니다.
+**defineOptions({
   inheritAttrs: false
-});
+});**
 </script>
 ```
 
