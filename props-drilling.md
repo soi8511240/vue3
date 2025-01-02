@@ -48,7 +48,7 @@ defineOptions({
 </script>
 ```
 
-** defineOptions는 Vue 3.3+ 버전에서 사용 가능합니다. **
+**defineOptions는 Vue 3.3+ 버전에서 사용 가능합니다.**
 
 ## 장점: 
 
