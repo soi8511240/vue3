@@ -1,5 +1,6 @@
 # Vue3 반응성 유지
 
+**ref,reactive**
 ```javascript
 const a = ref('1');
 const b = reactive({
